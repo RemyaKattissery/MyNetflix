@@ -1,0 +1,127 @@
+
+/* General Styles */
+
+.secpageimg 
+{
+display: flex; 
+margin: 20px 20px;
+}  
+.secpageimg img 
+{
+ height: 30px; /* Adjust the size of the logo */
+}
+hr 
+ {
+    border: 1px solid #666;
+    width: 100%;
+  
+  }   
+  .netflix_content 
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px; /* Limit the content width */
+    color: white;
+  } 
+  .Email_name
+  {
+    color:black;
+    font-weight: bold;
+  } 
+  .netflix_content p 
+  {
+    font-family: 'Helvetica', sans-serif;
+    color:black;
+  }  
+  /* Step Title */
+  .netflix_content p:nth-child(1) {
+    font-size: 24px;
+    margin-top: 20px;
+  }  
+  /* Main content */
+  .netflix_content p:nth-child(2) {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .netflix_content div p {
+    font-size: 16px;
+    color:black;
+    margin-top: 10px;
+  }  
+  .password_input 
+  {
+    width: 130%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;  
+    color: black;
+  }
+  .sec_pagebtn button
+  {
+   background-color: red;
+   padding: 15px;
+   width:420%;
+   font-size: 16px;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+  
+  }
+  .thelogo img {
+    height: 40px; /* Adjust the logo size if necessary */
+  }
+  .sec_pagebtn{
+    justify-content: center;
+    margin-right: 160px;
+  }
+
+  .forgot-password-link p{
+    color: #007bff; /* Blue color */
+    font-size: 5px;
+    text-decoration: none; /* Remove underline */
+     margin-right: 50px;
+  }
+  .secpagerow {
+    display: flex;
+  /* Align vertically in the center */
+  
+  justify-content: space-between
+  }
+  .signInLink{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+
+  }
+  
+  
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .secpageimg img {
+      height: 40px; /* Adjust logo size for smaller screens */
+    }
+  
+    .netflix_content {
+      padding: 15px;
+    }
+  
+    .password_input,
+    button {
+      max-width: 90%; /* Make input and button full-width on smaller screens */
+    }
+  }
+  
